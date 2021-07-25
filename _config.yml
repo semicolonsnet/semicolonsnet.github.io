@@ -71,13 +71,13 @@ panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 # Blog
 # -----------------------------------------------------------------------------
 
-#blog_name: blog  # your blog must have a name for it to show up in the nav bar
-#blog_description: updates on my work
-#permalink: /blog/:year/:title/
+blog_name: media # your blog must have a name for it to show up in the nav bar
+blog_description: press mentions
+permalink: /blog/:year/:title/
 
 # Pagination
-#pagination:
-#  enabled: true
+pagination:
+  enabled: false
 
 # Comments
 #disqus_shortname: al-folio # put your disqus shortname
