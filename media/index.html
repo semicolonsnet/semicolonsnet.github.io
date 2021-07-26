@@ -16,8 +16,8 @@ pagination:
   <ul class="post-list">
     {% for post in paginator.posts %}
       <li>
-        <h3><a class="post-title" href="{{ post.link }}">{{ post.title }}</a></h3>
-        <p class="post-meta">{{ post.date | date: '%B %-d, %Y' }}</p>
+        <h3><a class="post-title" href="{{ post.link }}">{{post.source}}</a> </h3>
+        <h4><a class="post-title" href="{{ post.link }}">{{ post.title }}</a> ({{ post.date | date: '%B %-d, %Y' }})</h4>
         <!-- <p>{{ post.description }}</p> -->
         <article class="post-content">
    			 {{ post.content }}
