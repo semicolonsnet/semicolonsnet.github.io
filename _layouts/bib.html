@@ -84,8 +84,10 @@
         <em>Episode of "{{entry.seriestitle}}" podcast</em>
       {% elsif entry.type == "White Paper" %}
         <em>{{entry.institution}} white paper</em>
-      {% elsif entry.type == "E-book" %}
+      {% elsif entry.type == "E-Book" %}
         <em>{{entry.institution}} e-book</em>
+      {% elsif entry.type == "blogpost" %}
+        <em>Post for {{entry.blogtitle}} Blog</em>
       {% endif %}
       </div>
     {% endif %}
