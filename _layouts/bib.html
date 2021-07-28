@@ -82,6 +82,10 @@
         <em>Webinar for {{entry.meeting}}</em>
       {% elsif entry.type == "podcast" %}
         <em>Episode of "{{entry.seriestitle}}" podcast</em>
+      {% elsif entry.type == "White Paper" %}
+        <em>{{entry.institution}} white paper</em>
+      {% elsif entry.type == "E-book" %}
+        <em>{{entry.institution}} e-book</em>
       {% endif %}
       </div>
     {% endif %}
