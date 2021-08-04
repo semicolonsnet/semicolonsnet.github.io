@@ -56,7 +56,7 @@ quora_username: # your Quora username
 publons_id: # your ID on Publons
 research_gate_profile: Chase_Nordengren # your profile on ResearchGate
 blogger_url: # your blogger URL
-work_url: # work page URL
+work_url: http://nwea.org/chase-nordengren # work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 dblp_url: # your DBLP profile url
@@ -72,7 +72,7 @@ panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 # -----------------------------------------------------------------------------
 
 blog_name: media # your blog must have a name for it to show up in the nav bar
-blog_description: 
+blog_description:
 permalink: /media/:year/:title/
 
 # Pagination
